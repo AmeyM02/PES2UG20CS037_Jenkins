@@ -3,7 +3,7 @@ agent any
 stages{
 stage('Clone Repository'){
 steps{
-git branch:'main', url : 'git@github.com:AmeyMittal/PES2UG20CS037_Jenkins.git' }
+git branch:'main', url : 'https://github.com/AmeyM02/PES2UG20CS037_Jenkins.git' }
 }
 stage('Build'){
 steps{
